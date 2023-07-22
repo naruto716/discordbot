@@ -1,0 +1,7 @@
+tiktoken
+revChatGPT
+poe-api
+py-cord
+bardapi
+requests
+EdgeGPT
