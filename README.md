@@ -50,5 +50,13 @@ for methods of finding corresponding tokens.
 ## Contributing
 Contributions to this project are welcome! Whether it's reporting bugs, suggesting enhancements, or contributing code, your help is appreciated. Please make sure to read the [Contributing Guidelines](CONTRIBUTING.md) before making a pull request.
 
+## Add Other Models and Permission Config
+This project uses a factory pattern for chatbot management, so it should be very easy to extend it with other models without changing the code. 
+Navigate to the ChatBots folder, and create your own class file.
+Implement the ChatBotStreamableAbstract interface.
+Go to BotTypes.py where you can add chatbots and configure their permissions
+![image](https://github.com/naruto716/discordbot/assets/79365555/dda28278-e8d2-414b-aa6f-14451fc4b7dc)
+
+
 ## License
 This project is licensed under the [MIT License](LICENSE.md).
