@@ -1,5 +1,6 @@
 # Discord AI Chatbot 
 ![](discord.gif)
+
 This project adheres to the OOP and MVC principles as a practice for my study and was made for my discord server. You are allowed to switch between several models seamlessly (with shared context) and see the bot gradually generating messages as you would on ChatGPT's website. Unlike other popular discord bots, this project uses multithreading and has a thread pool with appropriate resource management for border and more efficient support of models that don't support async (There are libs that use multithreading to emulate async, yet they are not efficient enough and synchronization issues caused by this are usually not properly addressed, so I decided to use multithreading instead of async for better performance and flexibility). This project also implements a permission system that allows you to manage who can use which models.
 
 ## Supported AI Models
